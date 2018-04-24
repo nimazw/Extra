@@ -1,8 +1,8 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 324368208 -- Put Here Your Bot ID
---ایدی رباتتونو اینجا بزارید
+our_id = 542054584 -- Put Here Your Bot ID
+--542054584
 URL = require "socket.url"
 http = require "socket.http"
 https = require "ssl.https"
@@ -90,7 +90,7 @@ function create_config( )
     "Filter",
     "MyInfo"
  },
-    sudo_users = {304107094},
+    sudo_users = {378373042},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
